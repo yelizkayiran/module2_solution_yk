@@ -1,0 +1,167 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: lightgrey;
+
+}
+h1 {
+  margin-bottom: 15px;
+  margin-left:80px;
+
+}
+
+h2 {
+	text-color: Blue;
+	background-color: lightblue;
+	position: absolute;
+	right: 0px;
+	border: 2px solid black;
+	width: 150px;
+	text-align: center;
+
+
+  }
+  
+p {
+  width: 90%;
+
+padding:10px;
+margin-top:50px;
+
+
+
+  font-family: Helvetica;
+  color: darkblue;
+  text-align:auto;  
+}
+
+
+.box{
+	margin-top:0px;
+	margin-left:0px;
+	
+}
+
+  
+}
+
+#h2box{
+	width:100px
+	heigh:100%
+	background-color:red;
+	border: 1px solid black;
+
+		
+	}
+
+
+/* Simple Responsive Framework. */
+.row {
+	width: 100%;
+
+	text-align: justify;
+	border-color: #E5AAAB;
+
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	
+	#p1{
+	width: 30%;
+	height:300px;
+	float: left;
+	background-color: #b2b2f3;
+	margin: 10px;
+	position: relative;
+	border:1px solid darkblue;
+
+	}
+	#p2{
+	width: 30%;
+		height:300px;
+	float:left;
+	background-color: #F3B2E4;
+	margin:10px;
+	  position: relative;
+	  	border:1px solid red;
+		
+	}
+	#p3{
+	width: 30%;
+		height:300px;
+	float:left;
+	background-color: #B8F3B2;
+	margin:10px;
+	  position: relative;
+	  	border:1px solid green;
+	}
+
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+	#p1{
+	width: 45%;	
+	height:300px;
+	float:left;
+	background-color: #b2b2f3;
+	margin-right:2%;
+	margin-bottom:2%;
+	  position: relative;
+	  	border:1px solid darkblue;
+	
+	}
+	#p2{
+	width: 45%;
+	height:300px;
+	float:left;
+	background-color: #F3B2E4;
+	margin-bottom:2%;
+	  position: relative;
+	  	border:1px solid red;
+
+
+	}
+	#p3{
+	width: 92%;
+	height:300px;
+	background-color: #B8F3B2;
+	box-sizing: border-box;
+	float:left;
+	  position: relative;
+	  	border:1px solid green;
+	
+	}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+	#p1{
+	width: 100%;	
+		float:left;
+	background-color: #b2b2f3;
+	  position: relative;	
+	  	margin:10px;
+	  	border:1px solid darkblue;
+	}
+	#p2{
+	width: 100%;
+		float:left;
+	background-color: #F3B2E4;
+		margin:10px;
+	  position: relative;		
+	  	border:1px solid red;
+	}
+	#p3{
+	width: 100%;	
+	float:left;
+	background-color: #B8F3B2;
+		margin:10px;
+		  position: relative;	
+		  	border:1px solid green;	
+	}
+ 
+}
